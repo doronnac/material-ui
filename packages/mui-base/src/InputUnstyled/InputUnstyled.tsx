@@ -116,6 +116,7 @@ const InputUnstyled = React.forwardRef(function InputUnstyled(
     placeholder,
     readOnly,
     type,
+    value,
   };
 
   const Root = component ?? components.Root ?? 'div';
